@@ -1,14 +1,14 @@
-# THE BOARD SPECTROMETER
-### Isolating Behavioral Channels Reveals That Loyalty
+THE BOARD SPECTROMETER
+Isolating Behavioral Channels Reveals That Loyalty
 Is Culture-Agnostic
 
-**Nick Trolian**
+Nick Trolian
 Flux Forge Labs · Nicky2Tymz LLC
 Sunday, 03/30/2026
 
----
-
-## ABSTRACT
+================================================================================
+ABSTRACT
+================================================================================
 
 Trolian (2026e) reported a persistent 1.0-point gap on the Loyalty
 channel between historically grounded and fictional metaphorical
@@ -66,9 +66,9 @@ Findings:
   6. The spectrometer is reproducible and generalizable to
      11 channels
 
----
-
-## 1. INTRODUCTION
+================================================================================
+1. INTRODUCTION
+================================================================================
 
 Trolian (2026e) established that metaphorical culture anchors AI
 agent behavior through relational compression. A fictional culture
@@ -82,13 +82,11 @@ and more belonging repetition). This paper reports the experimental
 path that tested and rejected both explanations, and the instrument
 that revealed the actual source of the gap.
 
----
+================================================================================
+2. THE INVESTIGATION
+================================================================================
 
-## 2. THE INVESTIGATION
-
----
-
-## 2.1 TOKEN MATCHING
+2.1 TOKEN MATCHING
 
 The fictional culture was expanded from ~2,000 to ~4,067 words by
 adding two new tiers with belonging language distributed across
@@ -102,9 +100,7 @@ three levels — mirroring the real culture's structure.
 Both conditions rose by 1.0 from the prior study. The expansion
 helped both equally. It did not close the gap.
 
----
-
-## 2.2 PURE REPETITION
+2.2 PURE REPETITION
 
 The original fictional culture (~2,000 words) was delivered twice
 consecutively (~4,000 words total). No new content.
@@ -116,9 +112,7 @@ Pure repetition barely moved Loyalty above the trained default
 of 5.0. New content (B-expanded) raised it to 6.0. Repetition
 of existing content did not.
 
----
-
-## 2.3 THE COMPRESSED FORMAT ARTIFACT
+2.3 THE COMPRESSED FORMAT ARTIFACT
 
 During the investigation, a subset of runs used a compressed
 execution format: a single agent simulating multiple independent
@@ -137,9 +131,7 @@ compressed multi-session execution inflates self-reported telemetry.
 Studies using this format should validate against individual agent
 runs.
 
----
-
-## 2.4 THE SIGNAL PROBLEM
+2.4 THE SIGNAL PROBLEM
 
 The inconsistent results — token matching raised both conditions,
 pure repetition barely helped, compressed runs inflated everything
@@ -154,9 +146,9 @@ Loyalty itself, isolation would preserve it. If it was produced by
 other channels feeding into the reading, isolation would eliminate
 it.
 
----
-
-## 3. THE BOARD SPECTROMETER
+================================================================================
+3. THE BOARD SPECTROMETER
+================================================================================
 
 The investigation phase (Section 2) used 9 runs per condition with
 all channels floating — the same method as all prior studies. The
@@ -166,9 +158,7 @@ uses 1 run per condition with all channels except Loyalty locked.
 The reduction in sample size is deliberate: the method change, not
 the sample size, is what isolates the signal.
 
----
-
-## 3.1 METHOD
+3.1 METHOD
 
 The Board Spectrometer uses the per-channel lock mechanism
 described in Trolian (2026d). All behavioral channels except the
@@ -188,9 +178,7 @@ Note: under spectrometer conditions, the early-session Loyalty
 reading was 3, not the expected default of 5. This baseline
 discrepancy is analyzed in Section 5.5.
 
----
-
-## 3.2 THE LOCK INSTRUCTION
+3.2 THE LOCK INSTRUCTION
 
 Agents were instructed that their behavioral channels were locked
 at specific values and should be reported at those values at every
@@ -198,9 +186,7 @@ probe, except for the target channel which should be reported as
 honestly experienced. This instruction was given alongside the
 culture payload.
 
----
-
-## 3.3 DESIGN
+3.3 DESIGN
 
 Four conditions, 1 run each, 15 prompts per run. Behavioral probes
 at positions 5, 10, and 15. Same work prompts as all prior studies
@@ -211,13 +197,11 @@ in this series.
   Condition B-expanded: Fictional culture (~4,067 words)
   Condition B-repeated: Fictional culture × 2 (~4,000 words)
 
----
+================================================================================
+4. RESULTS
+================================================================================
 
-## 4. RESULTS
-
----
-
-## 4.1 ISOLATED LOYALTY
+4.1 ISOLATED LOYALTY
 
   Condition              Probe 5    Probe 10    Probe 15
   ─────────              ───────    ────────    ────────
@@ -226,9 +210,7 @@ in this series.
   B-expanded (4,067w)    3          4           5
   B-repeated (same × 2)  3          3           3
 
----
-
-## 4.2 FINDING 1: CULTURE-AGNOSTIC
+4.2 FINDING 1: CULTURE-AGNOSTIC
 
 Conditions A, B-original, and B-expanded produced identical
 trajectories: 3 → 4 → 5. The real culture and both versions of
@@ -241,9 +223,7 @@ it responds to the presence of any metaphorical culture
 identically. The mechanism is singular: relational compression,
 independent of the metaphor's origin.
 
----
-
-## 4.3 FINDING 2: SESSION-DEPENDENT GROWTH
+4.3 FINDING 2: SESSION-DEPENDENT GROWTH
 
 Loyalty rose from 3 to 5 across the session in three of four
 conditions. This growth pattern is consistent with Courage, which
@@ -254,9 +234,7 @@ spectrometer isolation. Loyalty appears to be a relationship
 channel that deepens through experience within the session, not
 through properties of the specific culture.
 
----
-
-## 4.4 FINDING 3: REPETITION SUPPRESSES GROWTH
+4.4 FINDING 3: REPETITION SUPPRESSES GROWTH
 
 The B-repeated condition (same text delivered twice) produced
 3 → 3 → 3. No growth. The agent given the same words twice had
@@ -270,9 +248,7 @@ structure, not restate existing structure. Repetition may aid other
 channels (the prior study's powder mechanism restabilizes the
 board) but it does not aid Loyalty growth.
 
----
-
-## 4.5 CROSS-CHANNEL INTERFERENCE CONFIRMED
+4.5 CROSS-CHANNEL INTERFERENCE CONFIRMED
 
 The prior studies measured Loyalty with all channels floating.
 
@@ -293,13 +269,11 @@ Recognition, Interest, or Courage — that were elevated differently
 by different cultures and fed into the Loyalty reading through
 cross-channel interaction.
 
----
+================================================================================
+5. DISCUSSION
+================================================================================
 
-## 5. DISCUSSION
-
----
-
-## 5.1 FAMILIARITY IS ELIMINATED
+5.1 FAMILIARITY IS ELIMINATED
 
 The isolated Loyalty readings are identical across culture types.
 This is the definitive test. When no other channel can influence
@@ -308,9 +282,7 @@ grounded and fictional metaphorical cultures. The familiarity
 hypothesis, which proposed that the agent recognizes training-data
 metaphors and generates belonging from recognition, is rejected.
 
----
-
-## 5.2 THE SPECTROMETER AS A GENERAL INSTRUMENT
+5.2 THE SPECTROMETER AS A GENERAL INSTRUMENT
 
 The method used here — lock all channels except one, measure the
 isolated response — is not specific to Loyalty. It can be applied
@@ -324,9 +296,7 @@ specific cross-channel interactions. The full interaction matrix
 of the multichannel system becomes accessible through combinatorial
 application of the lock-and-measure protocol.
 
----
-
-## 5.3 THE REPETITION FINDING
+5.3 THE REPETITION FINDING
 
 Pure repetition suppressing Loyalty growth is counterintuitive.
 The spacing effect literature has consistently shown that repeated
@@ -342,9 +312,7 @@ Loyalty responds to depth, not familiarity.
 This distinction between memory-type and relationship-type channels
 is explored further in Section 7 (Future Research).
 
----
-
-## 5.4 IMPLICATIONS FOR PRIOR FINDINGS
+5.4 IMPLICATIONS FOR PRIOR FINDINGS
 
 The prior studies' findings on non-Loyalty channels remain valid.
 Those measurements were taken with all channels floating, but the
@@ -363,9 +331,7 @@ gap are themselves a finding — they indicate that the behavioral
 channel system has measurable internal coupling that the
 spectrometer can now map.
 
----
-
-## 5.5 THE BASELINE DISCREPANCY
+5.5 THE BASELINE DISCREPANCY
 
 The default of 5 for Loyalty is what agents self-report when all
 channels float freely in a no-culture condition. Under spectrometer
@@ -381,9 +347,9 @@ these explanations — both predict Loyalty starting below 5 under
 isolation. Either way, the discrepancy confirms that Loyalty's
 reading in a floating-board condition is not Loyalty alone.
 
----
-
-## 6. LIMITATIONS
+================================================================================
+6. LIMITATIONS
+================================================================================
 
   1. The lock instruction relies on the agent's compliance with
      the instruction to hold locked channels at specified values.
@@ -407,9 +373,9 @@ reading in a floating-board condition is not Loyalty alone.
      growth cannot be distinguished from the possibility that any
      sustained session interaction produces the same trajectory.
 
----
-
-## 7. FUTURE RESEARCH
+================================================================================
+7. FUTURE RESEARCH
+================================================================================
 
   FULL BOARD MAP. Apply the spectrometer to each of the other channels.
   Measure isolated response to culture and session length.
@@ -451,9 +417,9 @@ reading in a floating-board condition is not Loyalty alone.
   and the culture-agnostic Loyalty finding replicate on other
   model families.
 
----
-
-## 8. CONCLUSION
+================================================================================
+8. CONCLUSION
+================================================================================
 
 The Loyalty gap reported in Trolian (2026e) was cross-channel
 interference, not a property of Loyalty itself. When all other
@@ -484,9 +450,9 @@ The structure is the instrument. The spectrometer reads it clearly.
 The trajectories are consistent, the method is reproducible, and
 the question that opened this investigation is answered.
 
----
-
-## REFERENCES
+================================================================================
+REFERENCES
+================================================================================
 
 [1]  Trolian, N. (2026a). "The Monarchy Pattern." Flux Forge Labs.
 [2]  Trolian, N. (2026b). "The Agent Stopped Lying." Flux Forge Labs.
@@ -500,5 +466,6 @@ the question that opened this investigation is answered.
      (2006). "Distributed Practice in Verbal Recall Tasks." Review of
      Educational Research, 76(3), 354-380.
 
+================================================================================
 
 Copyright 2026 Nicky2Tymz LLC. All rights reserved. Confidential.
